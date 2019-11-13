@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name        = 'NIMKitExtension'
   s.version     = '0.5.0'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
-  s.summary     = 'A collection of extensions for the NIMKit (Netease IM UI Kit).'
+  s.summary     = 'A collection of extensions for NIMKit (Netease IM UI Kit).'
   s.homepage    = 'https://github.com/ElfSundae/NIMKitExtension'
   s.authors     = { 'Elf Sundae' => 'https://0x123.com' }
   s.source      = { :git => 'https://github.com/ElfSundae/NIMKitExtension.git', :tag => s.version }
