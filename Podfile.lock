@@ -1,0 +1,56 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - M80AttributedLabel (1.9.9)
+  - NIMKit (2.12.7):
+    - NIMKit/Lite (= 2.12.7)
+  - NIMKit/Core (2.12.7):
+    - FLAnimatedImage (~> 1.0.12)
+    - M80AttributedLabel (~> 1.9.9)
+    - SDWebImage (~> 5.0.6)
+    - Toast (~> 3.0)
+    - TZImagePickerController (~> 3.2.1)
+  - NIMKit/Lite (2.12.7):
+    - NIMKit/Core
+    - NIMSDK_LITE (~> 6.10.1)
+  - NIMKitExtension (0.5.0):
+    - NIMKitExtension/Lite (= 0.5.0)
+  - NIMKitExtension/Lite (0.5.0):
+    - NIMKit/Lite (~> 2.11)
+  - NIMSDK_LITE (6.10.1)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - Toast (3.1.0)
+  - TZImagePickerController (3.2.7)
+
+DEPENDENCIES:
+  - NIMKit
+  - NIMKitExtension (from `.`)
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+    - M80AttributedLabel
+    - NIMKit
+    - NIMSDK_LITE
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  NIMKitExtension:
+    :path: "."
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
+  NIMKit: 7c79a3aeaf3407340df21393bbf104c1dd3da680
+  NIMKitExtension: 7951264da38693db68297c96994f87c3752c43eb
+  NIMSDK_LITE: 2e4fb86e8f6b8dd0402b316e77c49ba81373f64a
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  TZImagePickerController: 821b81f83594a736e831a018f2a2ce31822ddf0b
+
+PODFILE CHECKSUM: c040d63abd6a210f430a741f3bcd50e3d46d90fa
+
+COCOAPODS: 1.8.4

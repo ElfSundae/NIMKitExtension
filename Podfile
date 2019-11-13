@@ -1,5 +1,6 @@
-workspace 'NIMKitExtension'
 platform :ios, '9.0'
+
+workspace 'NIMKitExtension'
 
 target 'Example' do
     project 'Example/Example'
