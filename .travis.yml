@@ -1,0 +1,13 @@
+language: objective-c
+osx_image: xcode11
+
+cache: cocoapods
+podfile: Podfile
+
+before_install:
+    - gem install cocoapods --no-document --quiet
+    - pod --version
+    - pod repo update --silent
+script:
+    - pod lib lint --allow-warnings
+    - pod install
